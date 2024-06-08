@@ -31,11 +31,10 @@
 
     <span class="spacer"></span>
 
-    <span> {{ user?.email }} </span>
-
-    <button mat-button (click)="onLogout()">
-      Logout
-    </button>
+    <div>
+      <mat-icon class="mx-5" matBadge="0" matBadgeColor="warn">email</mat-icon>
+      <mat-icon class="mr-2" mat-button (click)="onLogout()">power_settings_new</mat-icon>
+    </div>
 
   </mat-toolbar>
 

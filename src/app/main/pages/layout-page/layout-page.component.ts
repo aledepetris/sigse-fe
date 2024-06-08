@@ -14,9 +14,12 @@ import { User } from '../../../auth/interfaces/user.interface';
 export class LayoutPageComponent implements OnInit {
 
   public sidebarItems = [
-    { label: 'Listado', icon: 'label', url: './list' },
-    { label: 'Añadir', icon: 'add', url: './new-hero' },
-    { label: 'Buscar', icon: 'search', url: './search' },
+    { label: 'Home', icon: 'home', url: './home' },
+    { label: 'Configuración', icon: 'settings', url: './setting' },
+    { label: 'Ejercicios', icon: 'fitness_center', url: './excercise' },
+    { label: 'Alumnos', icon: 'group', url: './alumns' },
+    { label: 'Comunidad', icon: 'diversity_3', url: './community' }
+
   ]
 
   constructor( private authService: AuthService,
