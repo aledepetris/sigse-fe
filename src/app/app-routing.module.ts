@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { Error404PageComponent } from "./shared/pages/error404-page/error404-page.component";
 import { AuthGuard } from './auth/guards/auth.guard';
 import { PublicGuard } from './auth/guards/public.guard';
-import { HomeComponent } from './main/pages/home-page/home-page.component';
+import { HomeComponent } from './main/pages/home/home-page.component';
 
 
 const routes: Routes = [

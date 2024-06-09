@@ -5,8 +5,12 @@ import { MainRoutingModule } from './main-routing.module';
 import { MaterialModule } from '../material/material.module';
 
 import { ReactiveFormsModule } from '@angular/forms';
-import { HomeComponent } from './pages/home-page/home-page.component';
-import { LayoutPageComponent } from './pages/layout-page/layout-page.component';
+import { HomeComponent } from './pages/home/home-page.component';
+import { LayoutPageComponent } from './pages/layout/layout-page.component';
+import { ConfigurationComponent } from './pages/configuration/configuration.component';
+import { ExerciseComponent } from './pages/exercise/exercise.component';
+import { AlumnsComponent } from './pages/alumns/alumns.component';
+import { CommunityComponent } from './pages/community/community.component';
 
 
 
@@ -15,6 +19,10 @@ import { LayoutPageComponent } from './pages/layout-page/layout-page.component';
     // Pages
     HomeComponent,
     LayoutPageComponent,
+    ConfigurationComponent,
+    ExerciseComponent,
+    AlumnsComponent,
+    CommunityComponent,
 
     // Component
 

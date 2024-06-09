@@ -15,10 +15,10 @@ export class LayoutPageComponent implements OnInit {
 
   public sidebarItems = [
     { label: 'Home', icon: 'home', url: './home' },
-    { label: 'Configuración', icon: 'settings', url: './setting' },
-    { label: 'Ejercicios', icon: 'fitness_center', url: './excercise' },
+    { label: 'Configuración', icon: 'settings', url: './configuration' },
+    { label: 'Ejercicios', icon: 'fitness_center', url: './exercise' },
     { label: 'Alumnos', icon: 'group', url: './alumns' },
-    { label: 'Comunidad', icon: 'diversity_3', url: './community' }
+    { label: 'Comunidad', icon: 'diversity_3', url: './community/home' }
 
   ]
 
